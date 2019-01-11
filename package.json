@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "q22",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "data microblog powered by Gatsby and Markdown",
+  "version": "0.0.22",
+  "author": "queuebit <queuebit10648@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/queuebit/q22/issues"
   },
   "dependencies": {
     "gatsby": "^2.0.76",
@@ -40,15 +40,17 @@
     "eslint-plugin-react": "^7.11.1",
     "prettier": "^1.14.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://queuebit.net",
   "keywords": [
-    "gatsby"
+    "queuebit",
+    "data",
+    "microblog"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/queuebit/q22.git"
   },
   "scripts": {
     "dev": "gatsby develop",
