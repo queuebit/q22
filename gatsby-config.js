@@ -3,7 +3,7 @@ module.exports = {
     title: `q22 microblog`,
     author: `queuebit`,
     description: `A data-focused microblog.`,
-    siteUrl: `https://queuebit.net`,
+    siteUrl: `https://micro.queuebit.net`,
     social: {
       twitter: `queuebit`,
     },
