@@ -60,7 +60,9 @@ function SEO({ description, lang, meta, keywords, title }) {
                   : []
               )
               .concat(meta)}
-          />
+          >
+            <link href="https://micro.blog/queuebit" rel="me" />
+          </Helmet>
         )
       }}
     />
