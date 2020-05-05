@@ -1,3 +1,7 @@
-### Learning how to iOS
+---
+title: Learning how to iOS
+data: '2020-05-05T00:14:00.000Z'
+---
 
-<https://www.hackingwithswift.com/100/swiftui>
+### Hacking with Swift
+- [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui)
