@@ -1,6 +1,6 @@
 ---
 title: Learning how to iOS
-data: '2020-05-05T00:14:00.000Z'
+date: '2020-05-05T00:14:00.000Z'
 ---
 
 ### Hacking with Swift
