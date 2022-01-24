@@ -31,12 +31,9 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in Indiana
-              building <em>"things"</em>.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                Twitter
-              </a>
+              Written by <strong>{author}</strong> who lives and works in
+              Indiana building <em>"things"</em>.{` `}
+              <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>
             </p>
           </div>
         )
