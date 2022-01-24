@@ -1,6 +1,6 @@
 ---
 title: Hero on a Mission - Outline
-date: '2022-01-24T18:18:00.000Z'
+date: '2022-01-24T09:00:00.000Z'
 ---
 
 I am currently running through the backlog of episodes of [makers.dev](https://www.youtube.com/channel/UC5k3OvvdQArN1g4pE8RgJdw) that I had paused while at home, while my kids did remote school.
