@@ -40,6 +40,10 @@
     "eslint-plugin-react": "^7.19.0",
     "prettier": "^1.19.1"
   },
+  "engines": {
+    "node": ">=0.12"
+  },
+  "engineStrict": true,
   "homepage": "https://micro.queuebit.net",
   "keywords": [
     "queuebit",
