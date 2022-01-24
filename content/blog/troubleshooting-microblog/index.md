@@ -72,3 +72,36 @@ Build failed.
 10:05:25 AM: Error during Yarn install
 10:05:25 AM: Build was terminated: Build script returned non-zero exit code: 1
 ```
+
+I am going to specify the node version in `package.json` per [StackOverflow](https://stackoverflow.com/a/29349773/1217). Push up code and retry build.
+
+----
+
+Build failed.
+
+I am going to hardcode `NODE_VERSION` in environment variables to 12 and retry.
+
+----
+
+Build failed.
+
+```
+10:22:00 AM: gyp ERR! build error
+10:22:00 AM: gyp ERR! stack Error: `make` failed with exit code: 2
+10:22:00 AM: gyp ERR! stack     at ChildProcess.onExit (/opt/buildhome/.nvm/versions/node/v12.22.9/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:194:23)
+10:22:00 AM: gyp ERR! stack     at ChildProcess.emit (events.js:314:20)
+10:22:00 AM: gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:276:12)
+10:22:00 AM: gyp ERR! System Linux 5.4.129+
+10:22:00 AM: gyp ERR! command "/opt/buildhome/.nvm/versions/node/v12.22.9/bin/node" "/opt/buildhome/.nvm/versions/node/v12.22.9/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+10:22:00 AM: gyp ERR! cwd /opt/build/repo/node_modules/sharp
+10:22:00 AM: gyp ERR! node -v v12.22.9
+10:22:00 AM: gyp ERR! node-gyp -v v5.1.0
+10:22:00 AM: gyp ERR! not ok
+10:22:00 AM: info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+10:22:00 AM: Error during Yarn install
+```
+
+----
+
+Time to take a break and try and see how to get it working locally with latest / greatest versions rather than relying on fixing things one-by-one from 2020.
+
